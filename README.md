@@ -3,6 +3,7 @@
 1. git branch -a 查看所有分支(包括远程)
 2. git switch 分支名 :切换分支，该分支必须已经存在，可以是远程分支
 3. git checkout -b 分支名: 创建分支并切换到该分支
+4. git push origin --delete 分支名 :删除远程分支
 ## 远程仓库
 1. git remote add origin 远程仓库地址: 绑定远程仓库origin
 2. git remote -v :查看当前绑定的远程仓库
