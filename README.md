@@ -19,4 +19,9 @@
 1. git merge 分支名 :将指定分支合并到当前分支
 2. git merge --no-ff 分支名 :使用非fast-forward模式合并
 3. git rebase
+## 配置
+1. ssh-keygen -t rsa :生成ssh key
+2. git config --global user.name "用户名"
+3. git config --global user.email "邮箱名"
+4. git config user.name : 查看用户名
 
