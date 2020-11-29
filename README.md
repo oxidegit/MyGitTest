@@ -24,4 +24,9 @@
 2. git config --global user.name "用户名"
 3. git config --global user.email "邮箱名"
 4. git config user.name : 查看用户名
-
+## 比较差异
+1. git diff :比较工作区和暂存区差异
+2. git diff --cached :比较版本库和暂存区差异
+3. git diff <commit-id> <commit-id> ：比较两个版本之间的差异
+## 帮助
+1. git help <command> ：打开该命令的手册
